@@ -1,0 +1,19 @@
+.main {
+    padding: 10px;
+}
+
+.products ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.products ul li {
+    flex: 0 0 calc((100% - (2 * 16px)) / 3);
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    list-style: none;
+}
